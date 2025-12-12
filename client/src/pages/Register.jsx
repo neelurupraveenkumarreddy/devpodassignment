@@ -46,7 +46,7 @@ class Register extends Component {
 
     render() {
         return (
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '100vh' }}>
                 <div className="card" style={{ width: '350px' }}>
                     <h2>Register</h2>
                     {this.state.error && <p style={{ color: 'red' }}>{this.state.error}</p>}
