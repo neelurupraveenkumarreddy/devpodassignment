@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
@@ -65,7 +66,7 @@ class Login extends Component {
                         <button type="submit">Login</button>
                     </form>
                     <div style={{ marginTop: '10px', textAlign: 'center' }}>
-                        <a href="/register">Create an account</a>
+                        <Link to="/register">Create an account</Link>
                     </div>
                 </div>
             </div>
